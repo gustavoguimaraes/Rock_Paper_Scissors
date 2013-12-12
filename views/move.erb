@@ -1,0 +1,28 @@
+<style>
+
+.scissor {
+	display: none;
+}
+
+.rock {
+	display: none;
+}
+
+.paper {
+	display: none;
+}
+
+h1 {
+	display: inline-block;
+}
+
+body {
+	padding: 0% 10%;
+}
+
+</style>
+<div style="font-size: 50px;"><a href="/">Play Again!</a></div>
+<div><h1 style="margin: 10%"><%= @result %><h1></div>
+<span><img src="/<%= @human %>.png" width="400px" height="400px"></img></span>
+<span><h1 style="position: relative; bottom: 100px;">Vs.</span>
+<span><img src="/<%= @computer %>.png" width="400px" height="400px" style="position: relative; top: 100px"></img></span>
