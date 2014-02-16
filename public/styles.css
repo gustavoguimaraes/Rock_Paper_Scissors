@@ -1,5 +1,5 @@
 body {
-	padding: 10% 10%;
+	
 }
 
 img {
@@ -13,3 +13,16 @@ img {
   top: 60px;
 }
 
+h1, h2, br {
+  display: inline-block;
+}
+
+.play_again {
+  font-size: 200%;
+ 
+  color: black;
+}
+
+a{
+   text-decoration: none;
+}
